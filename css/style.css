@@ -1,0 +1,89 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+
+.registration-container {
+          background: #ffffff;
+        padding: 40px;
+        border-radius: 12px;
+        /* Adds a crisp border and a clean, elevated shadow */
+        border: 1px solid #cbd5e1;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+        width: 100%;
+        max-width: 450px;
+        position: relative;
+}
+h1 {
+            color: #1e3a8a;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+label {
+            display: block;
+            margin-bottom: 8px;
+            color: #334155;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensures padding doesn't push the width out */
+}
+
+input:focus, select:focus {
+            border-color: #3b82f6;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+        }
+
+button {
+    background-color:#103b80;
+    color: #ffffff;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.logo-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+.logo-container img {
+            width: 45px;
+            height: 45px;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+button[type ="submit"] {
+    background-color:#103b80;
+    color: #ffffff;
+}
+
